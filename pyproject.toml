@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "rpsgame"
+version = "0.1.0"
+description = "Rock Paper Scissors"
+authors = ["Ritheesh Reddy Kumbham <163450311+RitheeshReddyKumbham@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
