@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+  <h1>Rock Paper Scissors</h1>
+  <form method="post" action="/play">
+    <button name="choice" value="Rock">Rock</button>
+    <button name="choice" value="Paper">Paper</button>
+    <button name="choice" value="Scissors">Scissors</button>
+  </form>
+
+  {% if result %}
+    <h3>You chose: {{ player }}</h3>
+    <h3>Bot chose: {{ bot }}</h3>
+    <h2>{{ result }}</h2>
+  {% endif %}
+</body>
+</html>
